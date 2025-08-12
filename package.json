@@ -1,0 +1,53 @@
+{
+  "name": "tic-tac-toe-electron",
+  "version": "1.0.0",
+  "description": "A Tic-Tac-Toe game built with Electron",
+  "keywords": [
+    "electron",
+    "app",
+    "javascript",
+    "html",
+    "css",
+    "tic-tac-toe"
+  ],
+  "license": "ISC",
+  "author": "BeeDev",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "build:portable": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.beedev.tictactoe",
+    "productName": "Tic Tac Toe Electron",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/.cache"
+    ],
+    "win": {
+      "target": "portable"
+    }
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.3",
+    "@electron-forge/maker-deb": "^7.8.3",
+    "@electron-forge/maker-rpm": "^7.8.3",
+    "@electron-forge/maker-squirrel": "^7.8.3",
+    "@electron-forge/maker-zip": "^7.8.3",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.3",
+    "@electron-forge/plugin-fuses": "^7.8.3",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}

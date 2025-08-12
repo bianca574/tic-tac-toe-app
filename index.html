@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card" role="application" aria-label="Tic Tac Toe game">
+        <header>
+            <div>
+                <h1>Tic-Tac-Toe</h1>
+                <p class="lead">Click a cell to play!</p>
+            </div>
+            <div class="score-board">
+                <div id="score x" style="color:var(--purpleX);">X: 0</div>
+                <div id="score o" style="color:var(--blueO);">O: 0</div>
+                <div id="score draw">Draws: 0</div>
+            </div>
+        </header>
+        
+        <section id="game" style="position: relative; margin-top: 10px;">
+            <div id="board" class="board" role="grid" aria-label="tic tac toe board">
+                <!-- cells injected by JS -->
+            </div>
+        </section>
+        
+        <div class="controls">
+            <button id="reset" class="btn">Reset board</button>
+            <button id="newMatch" class="btn primary">New match (clear scores)</button>
+            <div style="flex: 1;"></div>
+            <div id="status">
+                <p id="stat-p">Player X's turn</p>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
