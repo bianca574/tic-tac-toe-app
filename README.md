@@ -24,9 +24,11 @@ git clone https://github.com/bianca574/tic-tac-toe-app.git
 
 cd tic-tac-toe-app
 
+
 Then install dependencies:
 
 npm install
+
 
 🚀 Run in Development
 
@@ -34,7 +36,9 @@ npm start
 
 This will open the app in an Electron window for development.
 
+
 🛠 Build for Production
+
 To create a distributable package:
 
 npm run make
