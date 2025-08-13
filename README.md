@@ -20,7 +20,7 @@ Play locally on your desktop — works on Windows, macOS, and Linux.
 
 First, clone this repository:
 
-git clone https://github.com/YOUR-USERNAME/tic-tac-toe-app.git
+git clone https://github.com/bianca574/tic-tac-toe-app.git
 cd tic-tac-toe-app
 
 Then install dependencies:
