@@ -40,12 +40,6 @@ npm run make
 
 The output will be in the out/ or dist/ folder (depending on your config).
 
-📂 Project Structure
-.
-├── app.js            # Game logic
-├── main.js           # Electron main process
-├── index.html        # Game UI
-├── style.css         # Styling
-├── forge.config.js   # Electron Forge config
-├── package.json
-└── package-lock.json
+## 📄 License
+
+This project is closed-source. All rights reserved.
