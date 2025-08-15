@@ -1,11 +1,21 @@
-# 🕹 Tic-Tac-Toe Electron
+# 🕹 Tic-Tac-Toe 
 
-A simple **Tic-Tac-Toe** game built with [Electron](https://www.electronjs.org/), HTML, CSS, and JavaScript.  
+A simple **Tic-Tac-Toe** game built with [Electron](https://www.electronjs.org/).  
 Play locally on your desktop — works on Windows, macOS, and Linux.
+
+## 🌐 Live Demo
+
+Check out the live site here: [https://bianca574.github.io/tic-tac-toe-app/]
+
+## 🛠️ Technologies Used
+
+- HTML
+- CSS
+- JavaScript
 
 ## 📸 Screenshot
 
-
+![Tic-Tac-Toe](images/screenshot.jpg)
 
 ## ✨ Features
 
@@ -13,8 +23,6 @@ Play locally on your desktop — works on Windows, macOS, and Linux.
 - 🖥 Cross-platform desktop app  
 - 🎨 Clean and simple UI  
 - ⚡ Fast and lightweight  
-
----
 
 ## 📦 Installation
 
